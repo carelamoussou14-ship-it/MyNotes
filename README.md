@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyNotes
 <<<<<<< HEAD
 
@@ -115,3 +116,6 @@ Projet réalisé dans le cadre de l'apprentissage du développement mobile avec 
 =======
 Application mobile développée avec Flutter permettant de créer, consulter, modifier et supprimer des notes personnelles.
 >>>>>>> a83300e0722362e534b0297806bcd93fabe5f2eb
+=======
+
+>>>>>>> 91108bb8b106b4ae08d6fefb1055092c390b365c
