@@ -1,17 +1,113 @@
-# mynotes
+# MyNotes
 
-A new Flutter project.
+Application mobile développée avec Flutter permettant de créer, consulter, modifier et supprimer des notes personnelles.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Connexion utilisateur
+- Ajout de notes
+- Consultation des notes
+- Modification des notes
+- Suppression des notes
+- Stockage local avec SQLite
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies utilisées
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- SQLite (sqflite)
+- Material Design 3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Structure du projet
+
+```text
+lib/
+├── database/
+│   └── database_helper.dart
+├── models/
+│   └── note.dart
+├── screens/
+│   ├── login_screen.dart
+│   ├── home_screen.dart
+│   └── note_screen.dart
+└── main.dart
+
+assets/
+└── images/
+    ├── logo.jpg
+    └── emptymessage.jpg
+```
+
+## Installation
+
+1. Cloner le projet :
+
+```bash
+git clone https://github.com/votre-utilisateur/mynotes.git
+```
+
+2. Accéder au dossier :
+
+```bash
+cd mynotes
+```
+
+3. Installer les dépendances :
+
+```bash
+flutter pub get
+```
+
+## Démarrage
+
+Vérifier les appareils disponibles :
+
+```bash
+flutter devices
+```
+
+Lancer l'application :
+
+```bash
+flutter run
+```
+
+## Base de données
+
+L'application utilise SQLite pour stocker les notes localement.
+
+Table utilisée :
+
+```sql
+CREATE TABLE notes(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  titre TEXT NOT NULL,
+  contenu TEXT NOT NULL
+);
+```
+
+## Maquettes
+
+### Écran de connexion
+
+- Logo MyNotes
+- Champ utilisateur
+- Champ mot de passe
+- Bouton de connexion
+
+### Écran principal
+
+- Liste des notes enregistrées
+- Bouton d'ajout
+- Modification et suppression des notes
+
+### Écran vide
+
+- Illustration
+- Message indiquant qu'aucune note n'est enregistrée
+
+## Auteur
+
+**AMOUSSOU Carèl Eric Gbènato**
+
+Projet réalisé dans le cadre de l'apprentissage du développement mobile avec DCLIC.
