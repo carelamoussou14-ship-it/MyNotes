@@ -45,7 +45,7 @@ assets/
 1. Cloner le projet :
 
 ```bash
-git clone https://github.com/votre-utilisateur/mynotes.git
+git clone https://github.com/carelamoussou14-ship-it/MyNotes.git
 ```
 
 2. Accéder au dossier :
