@@ -1,4 +1,5 @@
 # MyNotes
+<<<<<<< HEAD
 
 Application mobile développée avec Flutter permettant de créer, consulter, modifier et supprimer des notes personnelles.
 
@@ -111,3 +112,6 @@ CREATE TABLE notes(
 **AMOUSSOU Carèl Eric Gbènato**
 
 Projet réalisé dans le cadre de l'apprentissage du développement mobile avec DCLIC.
+=======
+Application mobile développée avec Flutter permettant de créer, consulter, modifier et supprimer des notes personnelles.
+>>>>>>> a83300e0722362e534b0297806bcd93fabe5f2eb
