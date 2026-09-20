@@ -93,8 +93,8 @@ CREATE TABLE notes(
 ### Écran de connexion
 
 - Logo MyNotes
-- Champ utilisateur
-- Champ mot de passe
+- Champ utilisateur (admin)
+- Champ mot de passe (1234)
 - Bouton de connexion
 
 ### Écran principal
